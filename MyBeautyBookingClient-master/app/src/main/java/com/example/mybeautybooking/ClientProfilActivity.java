@@ -69,7 +69,7 @@ public class ClientProfilActivity extends AppCompatActivity implements Navigatio
 
 
     private RequestQueue requestQueue;
-    private static final String URL = "http://192.168.1.27/Test-Projet/delete_test.php";
+    private static final String URL = "http://192.168.43.242/Test-Projet/delete_test.php";
     private StringRequest request;
 
     @Override

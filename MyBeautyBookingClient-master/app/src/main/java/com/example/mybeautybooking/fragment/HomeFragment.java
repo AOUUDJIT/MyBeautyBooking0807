@@ -71,7 +71,7 @@ public class HomeFragment extends Fragment {
     static private Location ma_pos = null ;
     //////////////////////////////////
     private RequestQueue requestQueue;
-    private static final String URL = "http://192.168.1.27/ProjetClient2/MyBeautyBookingServer-master/select_vente.php";
+    private static final String URL = "http://192.168.43.242/ProjetClient2/MyBeautyBookingServer-master/select_vente.php";
     private StringRequest request;
     Professionnel pro;
     Button b1;

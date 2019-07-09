@@ -21,7 +21,7 @@ tools:context=".activity.Main_Act_Map_Listpro_Connect">
     android:layout_below="@+id/logo"
     android:layout_marginTop="13dp"
     android:layout_marginLeft="10dp"
-    android:text="Ils se déplacent chez moi :  "
+    android:text="Ils se déplacent chez vous :  "
     android:textSize="15dp" />
 
 <FrameLayout

@@ -50,7 +50,7 @@ public class ClientSignupActivity_recherche extends AppCompatActivity {
     Button loginLink_Client;
 
     private RequestQueue requestQueue;
-    private static final String URL = "http://192.168.1.27/Test-Projet/client_add.php";
+    private static final String URL = "http://192.168.43.242/Test-Projet/client_add.php";
     private StringRequest request;
 
     @Override

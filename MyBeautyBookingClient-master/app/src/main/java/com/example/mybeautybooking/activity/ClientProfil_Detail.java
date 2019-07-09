@@ -57,8 +57,8 @@ public class ClientProfil_Detail extends AppCompatActivity {
     ClientProfilActivity clientProfilActivity;
 
     private RequestQueue requestQueue;
-    private static final String URL = "http://192.168.43.103/ProjetClient2/MyBeautyBookingServer-master/delete_test.php";
-    private static final String URL1 = "http://192.168.43.103/ProjetClient2/MyBeautyBookingServer-master/update.php";
+    private static final String URL = "http://192.168.43.242/Test-Projet/delete_test.php";
+    private static final String URL1 = "http://192.168.43.242/Test-Projet/update.php";
     private StringRequest request;
 
     @Override

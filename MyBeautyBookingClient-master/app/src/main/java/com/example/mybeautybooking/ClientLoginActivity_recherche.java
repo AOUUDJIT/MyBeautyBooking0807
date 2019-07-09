@@ -49,7 +49,7 @@ public class ClientLoginActivity_recherche extends AppCompatActivity {
     TextView acceuil;
 
     private RequestQueue requestQueue;
-    private static final String URL = "http://192.168.1.27/Test-Projet/Login_Client.php";
+    private static final String URL = "http://192.168.43.242/Test-Projet/Login_Client.php";
     private StringRequest request;
 
     @Override

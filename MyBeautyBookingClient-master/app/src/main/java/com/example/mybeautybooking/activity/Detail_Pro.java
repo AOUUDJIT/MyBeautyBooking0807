@@ -51,7 +51,7 @@ public class Detail_Pro extends AppCompatActivity {
         Categorie.setText(list.get(0).getSpecialite());
         Ville.setText("Je me déplace à "+list.get(0).getVille()+" principalement et dans un rayon de "+list.get(0).getRayon()+" Km.");
         // Rayon.setText(""+list.get(0).getRayon());
-        Lien.setText("Consultez mes tarifs et réalisations ici \n"+list.get(0).getDescription());
+        Lien.setText("Consultez mes tarifs et réalisations ici \n \n"+list.get(0).getDescription());
         Siret.setText("Siret établissement: "+list.get(0).getRegistre());
 
         Tel.setText(list.get(0).getNum_tel());

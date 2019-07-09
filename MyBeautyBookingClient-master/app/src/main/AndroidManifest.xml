@@ -24,7 +24,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".activity.Formulaire2"></activity>
         <activity android:name=".activity.Main_Act_Map_Listpro_Connect"
-            />
+            android:theme="@style/HiddenTitleTheme"/>
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />

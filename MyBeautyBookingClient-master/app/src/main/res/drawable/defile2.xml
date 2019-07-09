@@ -11,7 +11,7 @@
                 android:top="5dp" />
             <gradient
                 android:startColor="@color/colorblack"
-                android:endColor="@android:color/transparent"
+                android:endColor="@android:color/black"
                 android:angle="360"
 
                 >

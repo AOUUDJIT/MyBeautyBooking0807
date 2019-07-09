@@ -27,7 +27,7 @@
         android:layout_marginRight="51dp"
         android:layout_marginBottom="46dp"
         android:background="@color/colorblack"
-        android:text="Rcherche"
+        android:text="Recherche"
         android:textColor="@color/colorwhite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,111 +35,114 @@
         app:layout_constraintStart_toStartOf="parent" />
 
 
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="match_parent"
-        android:layout_height="114dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="0dp"
-        android:src="@drawable/logo" />
-
-    <TextView
-        android:id="@+id/TextAdresse"
-        android:layout_width="match_parent"
-        android:layout_height="34dp"
-        android:layout_below="@+id/logo"
-        android:layout_marginTop="13dp"
-        android:text="Je trouve un professionnel près de chez moi "
-        android:textSize="20dp" />
-
-    <EditText
-        android:id="@+id/ET_Adresse"
-        style="@style/Base.AlertDialog.AppCompat"
-        android:layout_width="match_parent"
-        android:layout_height="58dp"
-        android:layout_below="@+id/TextAdresse"
-        android:layout_marginTop="13dp"
-        android:ems="10"
-        android:hint="Je rentre mon adresse ou ma ville"
-        android:inputType="textPersonName"
-        android:textSize="20dp"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/SeekBarKm"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="19dp"
-        android:layout_marginLeft="19dp"
-        android:layout_marginTop="248dp"
-        android:background="@color/colorblack"
-        android:textColor="@color/colorwhite"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
-        android:text="Me localiser" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/Chercher"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="328dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginRight="0dp"
-        android:layout_marginBottom="-43dp"
-        android:orientation="vertical">
-
-        <CheckBox
-            android:id="@+id/checkBox1"
-            style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
-            android:layout_width="360dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:text="Onglerie"
-            android:textSize="20sp" />
-
-        <CheckBox
-            android:id="@+id/checkBox2"
-            android:layout_width="360dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:text="Massage"
-            android:textSize="20sp" />
-
-        <CheckBox
-            android:id="@+id/checkBox3"
-            android:layout_width="360dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:text="Coiffure"
-            android:textSize="20sp" />
-
-        <CheckBox
-            android:id="@+id/checkBox4"
-            android:layout_width="360dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:text="Maquillage"
-            android:textSize="20sp" />
+    <!--<ImageView-->
+        <!--android:id="@+id/logo"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="114dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginTop="0dp"-->
+        <!--android:src="@drawable/logo" />-->
 
 
 
 
-    </LinearLayout>
+<TextView
+    android:id="@+id/TextAdresse"
+    android:layout_width="match_parent"
+    android:layout_height="34dp"
+    android:layout_below="@+id/logo"
+    android:layout_marginTop="127dp"
+    android:text="Je trouve un professionnel près de chez moi "
+    android:textSize="20dp" />
+
+<EditText
+    android:id="@+id/ET_Adresse"
+    style="@style/Base.AlertDialog.AppCompat"
+    android:layout_width="match_parent"
+    android:layout_height="58dp"
+    android:layout_below="@+id/TextAdresse"
+    android:layout_marginTop="13dp"
+    android:ems="10"
+    android:hint="Je rentre mon adresse ou ma ville"
+    android:inputType="textPersonName"
+    android:textSize="20dp"
+    android:textStyle="italic"
+    app:layout_constraintBottom_toTopOf="@+id/SeekBarKm"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.481"
+    app:layout_constraintStart_toStartOf="parent" />
+
+<Button
+    android:id="@+id/button4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginStart="19dp"
+    android:layout_marginLeft="19dp"
+    android:layout_marginTop="248dp"
+    android:background="@color/colorblack"
+    android:textColor="@color/colorwhite"
+    android:layout_marginEnd="30dp"
+    android:layout_marginRight="30dp"
+    android:text="Activer la géolocalisation" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/Chercher"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginStart="0dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginTop="328dp"
+    android:layout_marginEnd="0dp"
+    android:layout_marginRight="0dp"
+    android:layout_marginBottom="-43dp"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:text="Onglerie"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:text="Massage"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:text="Coiffure"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:text="Maquillage"
+        android:textSize="20sp" />
+
+
+
+
+</LinearLayout>
 
 </RelativeLayout>

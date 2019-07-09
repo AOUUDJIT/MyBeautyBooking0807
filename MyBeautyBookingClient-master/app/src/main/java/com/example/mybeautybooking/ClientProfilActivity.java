@@ -112,8 +112,6 @@ public class ClientProfilActivity extends AppCompatActivity implements Navigatio
      */
     private void loadNavHeader() {
         // name, website
-        txtName.setText("Ravi Tamada");
-        txtWebsite.setText("www.androidhive.info");
 
     }
 

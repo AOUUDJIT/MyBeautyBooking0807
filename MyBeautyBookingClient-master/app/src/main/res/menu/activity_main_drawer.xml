@@ -16,6 +16,7 @@
             android:title="@string/nav_profile" />
         <item
             android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
             android:title="@string/nav_about_us" />
         <item
             android:id="@+id/nav_settings"

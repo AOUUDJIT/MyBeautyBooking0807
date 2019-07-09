@@ -15,6 +15,6 @@
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_gravity="center"
-        android:src="@drawable/MyBeauty_logo" />
+        android:src="@drawable/mybeauty_logo" />
 
 </android.support.v7.widget.LinearLayoutCompat>
